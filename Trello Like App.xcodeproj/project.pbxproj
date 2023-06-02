@@ -8,17 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		57967EB92A1C009C00E54A4B /* Trello_Like_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57967EB82A1C009C00E54A4B /* Trello_Like_AppApp.swift */; };
-		57967EBB2A1C009C00E54A4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57967EBA2A1C009C00E54A4B /* ContentView.swift */; };
 		57967EBD2A1C009E00E54A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57967EBC2A1C009E00E54A4B /* Assets.xcassets */; };
 		57967EC02A1C009E00E54A4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57967EBF2A1C009E00E54A4B /* Preview Assets.xcassets */; };
+		57967EC82A1C00ED00E54A4B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57967EC72A1C00ED00E54A4B /* Card.swift */; };
+		57967ECB2A1C01EF00E54A4B /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57967ECA2A1C01EF00E54A4B /* BoardList.swift */; };
+		57967ECD2A1C03AB00E54A4B /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57967ECC2A1C03AB00E54A4B /* Board.swift */; };
+		57967ED02A1C20F900E54A4B /* Board+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57967ECF2A1C20F900E54A4B /* Board+Stub.swift */; };
+		57E6C8E32A217E89007C3608 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6C8E22A217E89007C3608 /* BoardView.swift */; };
+		57E6C8E52A2182A0007C3608 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6C8E42A2182A0007C3608 /* BoardListView.swift */; };
+		57E6C8E72A218918007C3608 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6C8E62A218918007C3608 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57967EB52A1C009C00E54A4B /* Trello Like App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trello Like App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57967EB82A1C009C00E54A4B /* Trello_Like_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trello_Like_AppApp.swift; sourceTree = "<group>"; };
-		57967EBA2A1C009C00E54A4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57967EBC2A1C009E00E54A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57967EBF2A1C009E00E54A4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57967EC72A1C00ED00E54A4B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		57967ECA2A1C01EF00E54A4B /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
+		57967ECC2A1C03AB00E54A4B /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		57967ECE2A1C209300E54A4B /* Trello-Like-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Trello-Like-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		57967ECF2A1C20F900E54A4B /* Board+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Board+Stub.swift"; sourceTree = "<group>"; };
+		57E6C8E22A217E89007C3608 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		57E6C8E42A2182A0007C3608 /* BoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
+		57E6C8E62A218918007C3608 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,11 @@
 		57967EB72A1C009C00E54A4B /* Trello Like App */ = {
 			isa = PBXGroup;
 			children = (
+				57967ECE2A1C209300E54A4B /* Trello-Like-App-Info.plist */,
 				57967EB82A1C009C00E54A4B /* Trello_Like_AppApp.swift */,
-				57967EBA2A1C009C00E54A4B /* ContentView.swift */,
+				57E6C8E22A217E89007C3608 /* BoardView.swift */,
+				57E6C8E12A217E76007C3608 /* Views */,
+				57967EC62A1C00DC00E54A4B /* Models */,
 				57967EBC2A1C009E00E54A4B /* Assets.xcassets */,
 				57967EBE2A1C009E00E54A4B /* Preview Content */,
 			);
@@ -65,6 +81,26 @@
 				57967EBF2A1C009E00E54A4B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57967EC62A1C00DC00E54A4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57967ECA2A1C01EF00E54A4B /* BoardList.swift */,
+				57967EC72A1C00ED00E54A4B /* Card.swift */,
+				57967ECC2A1C03AB00E54A4B /* Board.swift */,
+				57967ECF2A1C20F900E54A4B /* Board+Stub.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57E6C8E12A217E76007C3608 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57E6C8E42A2182A0007C3608 /* BoardListView.swift */,
+				57E6C8E62A218918007C3608 /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +119,8 @@
 			dependencies = (
 			);
 			name = "Trello Like App";
+			packageProductDependencies = (
+			);
 			productName = "Trello Like App";
 			productReference = 57967EB52A1C009C00E54A4B /* Trello Like App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +149,8 @@
 				Base,
 			);
 			mainGroup = 57967EAC2A1C009C00E54A4B;
+			packageReferences = (
+			);
 			productRefGroup = 57967EB62A1C009C00E54A4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57967EBB2A1C009C00E54A4B /* ContentView.swift in Sources */,
+				57E6C8E32A217E89007C3608 /* BoardView.swift in Sources */,
+				57967ED02A1C20F900E54A4B /* Board+Stub.swift in Sources */,
+				57967EC82A1C00ED00E54A4B /* Card.swift in Sources */,
+				57967ECD2A1C03AB00E54A4B /* Board.swift in Sources */,
+				57E6C8E52A2182A0007C3608 /* BoardListView.swift in Sources */,
+				57967ECB2A1C01EF00E54A4B /* BoardList.swift in Sources */,
+				57E6C8E72A218918007C3608 /* CardView.swift in Sources */,
 				57967EB92A1C009C00E54A4B /* Trello_Like_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +316,7 @@
 				DEVELOPMENT_TEAM = 399GJFJ3MN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trello-Like-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +346,7 @@
 				DEVELOPMENT_TEAM = 399GJFJ3MN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trello-Like-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
